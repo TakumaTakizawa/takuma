@@ -4,11 +4,11 @@
 
 ##・開発環境
 Raspberry Pi 2 Model B  
-OS：Raspbian Jessie  
-使用言語：C言語  
-エディタ：vi  
-GPIO制御に使用するライブラリ：WiringPi  
-音声出力に使用するソフト：Omxplayer(Raspbianにプリインストールされている)  
+OS：Raspbian Jessie  
+使用言語：C言語  
+エディタ：vi  
+GPIO制御に使用するライブラリ：WiringPi  
+音声出力に使用するソフト：Omxplayer(Raspbianにプリインストールされている)  
   
 ##・ソースコードを利用するための準備(WiringPiのインストール方法)
 1.以下のコマンドを使用してアップデートとアップグレードを行う。  
