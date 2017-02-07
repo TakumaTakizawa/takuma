@@ -12,19 +12,19 @@ GPIO制御に使用するライブラリ:WiringPi
   
 ##・ソースコードを利用するための準備(WiringPiのインストール方法)
 1.以下のコマンドを使用してアップデートとアップグレードを行う。  
-'sudo apt-get install update'
-'sudo apt-get upgrade'
+`sudo apt-get install update`  
+`sudo apt-get upgrade`  
 2.以下のコマンドを使用してgitを導入する。  
-'sudo apt-get install libi2c-dev'
-'sudo apt-get install git-core'
+`sudo apt-get install libi2c-dev`  
+`sudo apt-get install git-core`  
 3.以下のコマンドを使用してWiringPiのインストールを行う。  
-'git clone git://git.drogon.net/wiringPi'
-'cd wiringPi'
-'./build'
+`git clone git://git.drogon.net/wiringPi`  
+`cd wiringPi`  
+`./build`  
 4.以下のコマンドでインストールされているかを確認する。  
-'gpio -v'
+`gpio -v`  
   
 ##・利用手順
 ターミナルで以下のコマンドを使用して実行する。  
-'gpio –g mode 18 out'
-'sudo ./file-name'
+`gpio –g mode 18 out`  
+`sudo ./file-name`  
