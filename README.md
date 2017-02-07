@@ -31,9 +31,9 @@ GPIO制御に使用するライブラリ：WiringPi  
 
 ##・プログラムの仕様  
 以下はプログラム内で使用したWiringPi特有の関数の解説である。  
-|使用した関数名                     |解説                                                                           |
-|:--------------------------------:|:----------------------------------------------------------------------------:|
-|wiringPiSetupGpio(void)           |GPIOのピン番号を利用するための設定                                               |
-|pinMode(GPIOname,INPUT or OUTPUT) |GPIOの設定を行う。INPUTはピンを入力として使用し，OUTPUTはピンを出力として使用できる。|
-|digitalRead(GPIOname)             |ピンの状態を読み取る。1または0が入る。                                            |
-|digitalWrite(GPIOname,0 or 1)     |ピンに1(=HIGH)または0(=LOW)を設定する。                                          |
+| 使用した関数名                     | 解説                                                                           |
+|:--------------------------------:|:------------------------------------------------------------------------------:|
+| wiringPiSetupGpio(void)           | GPIOのピン番号を利用するための設定                                               |
+| pinMode(GPIOname,INPUT or OUTPUT) | GPIOの設定を行う。INPUTはピンを入力として使用し，OUTPUTはピンを出力として使用できる。|
+| digitalRead(GPIOname)             | ピンの状態を読み取る。1または0が入る。                                            |
+| digitalWrite(GPIOname,0 or 1)     | ピンに1(=HIGH)または0(=LOW)を設定する。                                          |
